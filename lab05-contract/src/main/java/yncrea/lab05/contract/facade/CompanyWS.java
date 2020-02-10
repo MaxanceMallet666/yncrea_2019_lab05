@@ -8,7 +8,7 @@ import java.util.Collection;
 @WebService
 public interface CompanyWS {
 
-    public Collection<CompanyDTO> getAllCompanies();
-    public void saveCompany (CompanyDTO companyDTO);
+    Collection<CompanyDTO> getAllCompanies();
+    void saveCompany (CompanyDTO companyDTO);
 
 }
